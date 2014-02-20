@@ -30,4 +30,3 @@
 
 	<!-- If you want to use an element as a wrapper, i.e. for styling only, then <div> is still the element to use -->
 	<div class="wrap">
-		<main role="main">
