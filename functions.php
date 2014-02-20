@@ -5,7 +5,7 @@
 function minimal_jquery_script() {
 	if ( ! is_admin() ) {
 		wp_deregister_script('jquery');
-		wp_register_script('jquery', '//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js', false, '1.10.2', true);
+		wp_register_script('jquery', '//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js', false, '1.11.0', true);
 	}
 }
 add_action('wp_enqueue_scripts', 'minimal_jquery_script');
