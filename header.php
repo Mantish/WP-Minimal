@@ -9,7 +9,7 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/normalize.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/styles.css">
 
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
